@@ -56,7 +56,7 @@ const Section4 = () => {
             Learn more about the show by clicking on the button below
             <br />
             <br />
-            <button data-aos="fade-up" className="button4">LEARN MORE</button>
+            <button className="button4">LEARN MORE</button>
           </p>
 
           <br />

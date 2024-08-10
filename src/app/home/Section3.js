@@ -152,7 +152,7 @@ const Section3 = () => {
         {Data.map(
           ({ id, imgSrc, destTitle, location, grade, fees, description }) => {
             return (
-              <div key={id} data-aos="fade-up" className="singleDestination">
+              <div key={id} className="singleDestination">
                 {/* Here it will return a single id from the map array*/}
 
                 <div className="imageDiv">

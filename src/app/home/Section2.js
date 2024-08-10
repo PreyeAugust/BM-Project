@@ -27,11 +27,11 @@ const Section2 = () => {
           survivors.
         </h4>
         <div className="section2-buttons">
-          <button data-aos="fade-up">Start Now</button>
+          <button>Start Now</button>
         </div>
       </div>
 
-      <video data-aos="fade-up" autoPlay loop muted>
+      <video autoPlay loop muted>
         <source src="/research.mp4" type="video/mp4" className="video2" />
       </video>
     </main>

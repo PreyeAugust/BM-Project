@@ -55,7 +55,7 @@ const Section1 = () => {
             }`}
           >
             <Image
-            data-aos="fade-up"
+      
               src={elem.src}
               alt=""
               width={400}

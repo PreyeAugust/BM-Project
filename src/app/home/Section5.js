@@ -49,7 +49,7 @@ const Section5 = () => {
             />
           </h2>
 
-          <Image data-aos="fade-up" src={Img1} className="section5-image" alt="BM" />
+          <Image src={Img1} className="section5-image" alt="BM" />
         </div>
 
         <div data-aos="fade-up" className="right">
@@ -63,7 +63,7 @@ const Section5 = () => {
           </h3>
           <br />
           <br />
-          <button data-aos="fade-up" >Meet Bisola Mariam</button>
+          <button>Meet Bisola Mariam</button>
         </div>
       </div>
     </div>
