@@ -1,7 +1,12 @@
-import Navbar from "@/components/Navbar";
+import Page from "@/app/home/page";
 
 export default function Home() {
   return (
-  <Navbar/>
+    <div>
+      
+      <Page />
+    </div>
+  
+
   );
 }
