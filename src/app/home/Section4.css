@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Wittgenstein:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap");
+
+.section4-content h3 {
+  font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+}
+
+.section4-content p {
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: italic;
+  text-align: center;
+}
+
+.section4-image {
+  border-radius: 3rem;
+  padding: 20px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transition: 2s ease;
+}
+
+.section4-image:hover {
+  transform: scale(1.1);
+}
+
+.Image4-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section4-container {
+  margin-top: 3rem;
+  border-radius: 1rem;
+  background: whitesmoke;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  justify-items: center;
+}
+
+.section4-content button {
+  padding: 25px 40px;
+  font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  border: none;
+  background: rgb(226, 226, 56);
+  border-radius: 15rem;
+}
+
+.section4-content button:hover {
+  transition: all ease-out;
+  transition-duration: 1s;
+  background: rgb(47, 145, 47);
+  color: whitesmoke;
+}
+
+.custom-shape-divider-top-1723052750 .shape-fill {
+  fill: #ffe53e;
+}
+
+@media screen and (max-width: 576px) {
+  .section4-container {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .Image4-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .section4-content{
+    text-align: center;
+  }
+
+  .section4-content button{
+    text-align: center;
+  }
+
+
+
+  .section4-content h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .section4-content p {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 840px) {
+}

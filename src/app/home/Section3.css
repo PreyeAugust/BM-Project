@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Wittgenstein:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap");
+
+
+
+:root {
+  --PrimaryColor: hsl(55, 73%, 52%);
+  --SecondaryColor: hsl(57, 97%, 64%);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(127, 75%, 58%),
+    hsl(92, 43%, 49%)
+  );
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(116, 49%, 60%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+  --cardHover: rgb(225, 225, 255);
+}
+
+
+.main3 {
+  width: 100%;
+ margin: auto;
+ padding: auto;
+}
+.main3 .secTitle .title {
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+  color: var(--textColor);
+  font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-size: 40px;
+  font-style: normal;
+  margin: 1rem 0;
+  z-index: 2;
+}
+
+.main3 .secTitle p{
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.icon3{
+  font-size: 25px;
+  color: var(--PrimaryColor);
+}
+
+
+
+.main3-button{
+padding: 25px 40px;
+  font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  border: none;
+  background: rgb(226, 226, 56);
+  border-radius: 15rem;
+}
+
+.main3-button:hover{
+  transition: all ease-out;
+  transition-duration: 1s;
+  background: rgb(47, 145, 47);
+    color: whitesmoke;
+}
+
+
+
+.main3 .secTitle .title::after {
+  position: absolute;
+  content: "";
+  background: var(--SecondaryColor);
+  height: 5px;
+  width: 120px;
+  right: 0;
+  bottom: 5px;
+  z-index: -1;
+}
+.main3 .secContent3 {
+  justify-content: center;
+  gap: 1.5rem;
+}
+.main3 .secContent3 .singleDestination {
+  height: 100%;
+  display: grid;
+  row-gap: 10px;
+  align-items: center;
+  background: var(--cardBG);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.549);
+  overflow: hidden;
+}
+.main3 .secContent3 .singleDestination:hover {
+  background: var(--cardHover);
+  box-shadow: 1 4px 4px rgba(0, 0, 0, 0.549);
+  transition: 0.3sec ease;
+}
+.main3 .secContent3 .singleDestination .imageDiv {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+.main3 .secContent3 .singleDestination .imageDiv img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transition: 2s ease;
+}
+.main3 .secContent3 .singleDestination .imageDiv:hover img {
+  transform: scale(1.3);
+}
+.main3 .secContent3 .singleDestination .cardInfo {
+  padding: 1rem;
+}
+.main3 .secContent3 .singleDestination .cardInfo .destTitle {
+  color: var(--PrimaryColor);
+  font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+.main3 .secContent3 .singleDestination .cardInfo .continent {
+  gap: 0.5rem;
+}
+.main3 .secContent3 .singleDestination .cardInfo .continent .icon {
+  color: var(--textColor);
+  font-size: 18px;
+}
+.main3 .secContent3 .singleDestination .cardInfo .continent .name {
+  color: var(--textColor);
+  font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+  font-size: 16px;
+}
+.main3 .secContent3 .singleDestination .cardInfo .fees {
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-top: 1.5px solid var(--greyText);
+  font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+  border-bottom: 1.5px solid var(--greyText);
+}
+.main3 .secContent3 .singleDestination .cardInfo .fees .grade {
+  color: black;
+  max-width: 100px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+}
+.main3 .secContent3 .singleDestination .cardInfo .fees small {
+  text-align: center;
+  background: var(--gradientColor);
+  border-radius: 1rem;
+  color: var(--whiteColor);
+  padding: 1px 10px;
+  font-size: 10px;
+}
+.main3 .secContent3 .singleDestination .cardInfo .price {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+}
+.main3 .secContent3 .singleDestination .desc {
+  font-size: 13.5px;
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+.main3 .secContent3 .singleDestination .btn {
+  margin-top: 2rem;
+  color: var(--textColor);
+  font-weight: 600;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+}
+.main3 .secContent3 .singleDestination .btn .icon {
+  align-self: center;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 500px) {
+
+  .main3 .secTitle .title{
+    font-size: 1.7rem;
+  }
+
+  .main3{
+    margin-top: 5rem;
+  }
+
+  .p-description{
+    text-align: justify;
+  }
+
+  .title::after {
+    width: 155px !important;
+  }
+  .secContent3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .secContent3 .singleDestination {
+    height: auto;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .main3 .secTitle p{
+    text-align: justify;
+    font-weight: 500;
+  }
+
+
+}
+
+
+@media screen and (min-width: 840px) {
+  .secContent3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .secContent3 .singleDestination {
+    height: auto;
+  }
+}

@@ -1,0 +1,20 @@
+.logo {
+  width: 15rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+  padding: 2rem;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.p{
+    font-size: 15px;
+}
